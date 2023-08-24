@@ -5,7 +5,7 @@
       "repo": "https://github.com/Wolv-Corporation/positron_miatoll",
       "branch": "main",
       "device": "joyeuse",
-      "defconfig": "miui_defconfig"
+      "defconfig": "cust_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
