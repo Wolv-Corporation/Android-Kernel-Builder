@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Chopin_KernelSU_Proton",
-      "repo": "https://github.com/AOSP-13-Mediatek/kernel_xiaomi_chopin",
-      "branch": "r",
-      "device": "chopin",
-      "defconfig": "chopin_user_defconfig"
+      "name": "Joyeuse_Proton",
+      "repo": "https://github.com/Wolv-Corporation/positron_miatoll",
+      "branch": "main",
+      "device": "joyeuse",
+      "defconfig": "miuidefconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -37,10 +37,10 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
+      "use": true,
       "release": false,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/wolverine998/AnyKernel3/",
+      "branch": "master"
     }
   }
 ]
