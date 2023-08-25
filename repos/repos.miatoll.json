@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "AgniMIUI",
+      "name": "Ethereous",
       "repo": "https://github.com/excaliburr92/AGNi_pureMIUI",
       "branch": "miui_r",
       "device": "joyeuse",
-      "defconfig": "agni_atoll_miuiR_defconfig"
+      "defconfig": "cust_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
