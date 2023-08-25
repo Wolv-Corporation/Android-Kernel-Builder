@@ -5,7 +5,7 @@
       "repo": "https://github.com/excaliburr92/AGNi_pureMIUI",
       "branch": "miui_r",
       "device": "joyeuse",
-      "defconfig": "cust_defconfig"
+      "defconfig": "vendor/atoll-perf_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
