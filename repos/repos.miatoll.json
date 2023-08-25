@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Joyeuse_Proton",
-      "repo": "https://github.com/Wolv-Corporation/positron_miatoll",
-      "branch": "main",
+      "name": "AgniMIUI",
+      "repo": "https://github.com/excaliburr92/AGNi_pureMIUI",
+      "branch": "miui_r",
       "device": "joyeuse",
-      "defconfig": "cust_defconfig"
+      "defconfig": "agni_atoll_miuiR_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
