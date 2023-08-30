@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Ethereous",
-      "repo": "https://github.com/excaliburr92/AGNi_pureMIUI",
-      "branch": "miui_r",
+      "name": "NexusKernel",
+      "repo": "https://github.com/projects-nexus/nexus_kernel_xiaomi_sm6250",
+      "branch": "twelve",
       "device": "joyeuse",
-      "defconfig": "arrow_defconfig"
+      "defconfig": "cust_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
