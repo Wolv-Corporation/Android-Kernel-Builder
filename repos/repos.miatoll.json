@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "NexusKernel",
-      "repo": "https://github.com/projects-nexus/nexus_kernel_xiaomi_sm6250",
-      "branch": "twelve",
+      "name": "StockKernel",
+      "repo": "https://github.com/Wolv-Corporation/Xiaomi_Kernel_OpenSource",
+      "branch": "curtana-q-oss",
       "device": "joyeuse",
-      "defconfig": "cust_defconfig"
+      "defconfig": "miui-perf_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
