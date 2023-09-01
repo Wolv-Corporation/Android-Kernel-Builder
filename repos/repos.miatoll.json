@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "StockKernel",
-      "repo": "https://github.com/Wolv-Corporation/Xiaomi_Kernel_OpenSource",
-      "branch": "curtana-q-oss",
+      "repo": "https://github.com/Demon000/kernel_xiaomi_sm6250",
+      "branch": "LA.UM.9.1.r1-07700-SMxxx0.0",
       "device": "joyeuse",
-      "defconfig": "vendor/miui-perf_defconfig"
+      "defconfig": "cust_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
