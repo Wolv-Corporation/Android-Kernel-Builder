@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "StockKernel",
       "repo": "https://github.com/psndna88/AGNi_pureMIUI",
-      "branch": "AGNi_MIATOLL_MIUI_R-REBASED",
+      "branch": "AGNi_MIATOLL_MIUI_R",
       "device": "joyeuse",
       "defconfig": "agni_atoll_miuiR_defconfig"
     },
