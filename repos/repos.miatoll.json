@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "StockKernel",
-      "repo": "https://github.com/Demon000/kernel_xiaomi_sm6250",
-      "branch": "LA.UM.9.1.r1-07700-SMxxx0.0",
+      "repo": "https://github.com/psndna88/AGNi_pureMIUI",
+      "branch": "AGNI_MIATOLL_MIUI_R-REBASED",
       "device": "joyeuse",
-      "defconfig": "cust_defconfig"
+      "defconfig": "agni_atoll_miuiR_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -22,7 +22,18 @@
       "CC": "proton-clang/bin/clang",
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-"
+        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "LD": "proton-clang/bin/ld.lld",
+        "AR": "proton-clang/bin/llvm-ar",
+        "NM": "proton-clang/bin/llvm-nm",
+        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
+        "OBJDUMP": "proton-clang/bin/llvm-objdump",
+        "READELF": "proton-clang/bin/llvm-readelf",
+        "OBJSIZE": "proton-clang/bin/llvm-size",
+        "STRIP": "proton-clang/bin/llvm-strip",
+        "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "proton-clang/bin/llvm-ar",
+        "LLVM_DIS": "proton-clang/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
