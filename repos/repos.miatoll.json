@@ -7,7 +7,7 @@
       "device": "joyeuse",
       "defconfig": "agni_atoll_miuiR_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
@@ -38,7 +38,7 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": false,
+      "release": true,
       "repo": "https://github.com/wolverine998/AnyKernel3/",
       "branch": "master"
     }
